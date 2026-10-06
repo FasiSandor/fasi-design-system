@@ -1,0 +1,20 @@
+{
+  "name": "@fasi/design-system",
+  "version": "0.1.0",
+  "private": false,
+  "description": "FS central UI and document design system",
+  "type": "module",
+  "main": "./src/index.tsx",
+  "types": "./src/index.tsx",
+  "exports": {
+    ".": "./src/index.tsx",
+    "./styles.css": "./src/styles.css",
+    "./fs-mark.svg": "./assets/fs-mark.svg"
+  },
+  "files": ["src", "assets", "docs"],
+  "peerDependencies": {
+    "react": ">=18",
+    "react-dom": ">=18"
+  },
+  "keywords": ["design-system","react","nextjs","print","document-template"]
+}
